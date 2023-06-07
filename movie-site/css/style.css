@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #131720;
+  font-family: sans-serif;
+}
+
+.topnav {
+  background-color: #131720;
+}
+
+form {
+  background-color: #151f30;
+  width: 300px;
+}
+
+form input {
+  all: unset;
+  font: 15px system-ui;
+  padding: 6px 9px;
+}
+
+main{
+  max-width: 1350px;
+}
+
+figure img {
+  height: 350px;
+  width: 310px;
+}
+
+.column {
+  width: calc(25% - 1rem);
+}
+
+.card {
+  border-radius: 0.5rem;
+  padding: 15px;
+}
+
+.movie-detail {
+  margin-top: 10px;
+}
+
+.movie-detail h2 {
+  font-size: 1.1rem;
+}
+
+.movie-detail h3 {
+  margin-top: 2px;
+}
+
+.movie-detail .rating span{
+  font-size: 0.9rem;
+  margin-left: .2rem;
+  letter-spacing: 1px;
+}

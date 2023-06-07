@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Movie Site</title>
+</head>
+
+<body>
+    <div class="topnav overflow-hidden">
+        <a href="#" class="active float-left block text-white py-3 px-4 no-underline text-xl uppercase">Movie Site</a>
+
+        <div class="search-container float-right">
+            <form role="search" id="form" class="h-11 rounded-xl flex items-center">
+                <input type="search" name="q" id="query" placeholder="Search..." class="text-white h-full w-full">
+            </form>
+        </div>
+    </div>
+
+    <main class="m-auto w-full mt-4 relative">
+        <section id="section">
+            <div class="row flex flex-row flex-wrap w-full gap-y-6 gap-x-4 " id="rows"></div>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
